@@ -1,56 +1,85 @@
-# Shiny Python Projects
-Python projects built using the Shiny Framework
 
-<img src='./assets/shiny.jpeg' width=50%>
+# Sales Dashboard
 
-## Sales Dashboard Project
+This project is a Sales Dashboard application developed using Python. The application utilizes various libraries and frameworks such as pandas, seaborn, altair, folium, plotly, and shinywidgets to visualize and analyze sales data.
 
-[Sales Dashboard Project](./sales)
+## Folder Structure
 
-Given 12 months of (mock) sales data from an electronics store, what type of Shiny application can we build?
+```plaintext
+assets/
+├── shiny-logo.png
+├── shiny.jpeg
+├── students.csv
+├── video1.png
+├── video2.png
+├── video3.png
+├── video4.png
+├── sales/
+│   ├── data/
+│   │   └── sales.csv
+│   └── rsconnect-python/
+├── app.py
+├── requirements.txt
+├── .gitignore
+├── how to run-deploy.txt
+└── LICENSE
+```
 
-This project walks through the basics of Shiny, how reactivity works, how to customize your application layout, and more. This is a great place to start if you are new to Shiny.
+## Requirements
 
-### Part 1: How to Build, Deploy, & Share a Python Application in 20 Minutes
+The following Python packages are required to run the application:
 
-<img src='./assets/video1.png' width=50%>
+- pandas
+- numpy
+- seaborn
+- altair
+- matplotlib
+- folium
+- plotly
+- shiny
+- shinywidgets
 
-Walks through the basics of getting started with Shiny for Python and we build
-and deploy a simple app by the end of the video.
+You can install the required packages using the following command:
 
-[Finished Source Code](https://github.com/KeithGalli/shiny-python-projects/tree/video1/sales)
+```bash
+pip install -r requirements.txt
+```
 
-[Video Link](https://youtu.be/I2W7i7QyJPI?si=4gQSbdKbF50SX3uO)
+## Running the Application
 
-### Part 2: How to Make Interactive Python Dashboards! (Reactivity in Shiny)
+To run the application, execute the following command in the terminal:
 
-<img src='./assets/video2.png' width=50%>
+```bash
+python app.py
+```
 
-Walks through the important concept of reactivity in Shiny and how we can add
-and manage the interactivity of our Python applications.
+## Features
 
-[Finished Source Code](https://github.com/KeithGalli/shiny-python-projects/tree/video2/sales)
+The Sales Dashboard application includes the following features:
 
-[Video Link](https://youtu.be/SLkA-Z8HTAE?si=DE0xSYtlJ0ym6lw8)
+1. **Sales by City 2023**: Visualizes sales data by city for the year 2023 using a bar chart.
+2. **Top Sellers**: Displays the top-selling products.
+3. **Top Sellers Value ($)**: Displays the top-selling products based on sales value.
+4. **Lowest Sellers**: Displays the lowest-selling products.
+5. **Lowest Sellers Value ($)**: Displays the lowest-selling products based on sales value.
+6. **Sales by Time of Day Heatmap**: Visualizes the number of orders by the hour of the day using a heatmap.
+7. **Sales by Location Map**: Shows a heatmap of sales by location using Folium.
 
-### Part 3: How to make your Python Dashboard look Professional! (Layouts in Shiny)
+## Data
 
-<img src='./assets/video3.png' width=50%>
+The application uses the `sales.csv` file located in the `assets/sales/data/` directory. The data includes columns such as `order_date`, `quantity_ordered`, `price_each`, `city`, and `product`.
 
-We focus on enhancing the visual appeal and structure of your Shiny dashboards
-using various layout components.
+## License
 
-[Finished Source Code](https://github.com/KeithGalli/shiny-python-projects/tree/video3/sales)
+This project is licensed under the [MIT License](LICENSE).
 
-[Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+## How to Run and Deploy
 
-### Part 4: How to combine Matplotlib, Plotly, Seaborn, and more in a single Python Dashboard!
+Instructions on how to run and deploy the application can be found in the `how to run-deploy.txt` file.
 
-<img src='./assets/video4.png' width=50%>
+## Contact
 
-We show how we can render various types of visualizations within Shiny.
+https://github.com/ashwathnakate
 
-[Finished Source Code](https://github.com/KeithGalli/shiny-python-projects/tree/video4/sales)
+```
 
-[Video Link](https://youtu.be/dQw4w9WgXcQ?si=0JJvt-tTj68fna4i)
-"# sales-dashboard" 
