@@ -1,5 +1,5 @@
 
-# Sales Dashboard
+# 📊 Sales Dashboard
 
 This project is a Sales Dashboard application developed using Python. The application utilizes various libraries and frameworks such as pandas, seaborn, altair, folium, plotly, and shinywidgets to visualize and analyze sales data.
 
@@ -25,7 +25,7 @@ assets/
 └── LICENSE
 ```
 
-## Requirements
+## ✅ Requirements
 
 The following Python packages are required to run the application:
 
@@ -53,7 +53,7 @@ To run the application, execute the following command in the terminal:
 python app.py
 ```
 
-## Features
+## ⭐ Features
 
 The Sales Dashboard application includes the following features:
 
@@ -65,15 +65,15 @@ The Sales Dashboard application includes the following features:
 6. **Sales by Time of Day Heatmap**: Visualizes the number of orders by the hour of the day using a heatmap.
 7. **Sales by Location Map**: Shows a heatmap of sales by location using Folium.
 
-## Data
+## 🗂️ Data
 
 The application uses the `sales.csv` file located in the `assets/sales/data/` directory. The data includes columns such as `order_date`, `quantity_ordered`, `price_each`, `city`, and `product`.
 
-## License
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## How to Run and Deploy
+## ▶️ How to Run and Deploy
 
 Instructions on how to run and deploy the application can be found in the `how to run-deploy.txt` file.
 
