@@ -1,7 +1,0 @@
-code to start shiny server in browser
-shiny run --reload --launch-browser app.py
-
-----deploy---
-rsconnect add --account ashwathnakate --name ashwathnakate --token 1EFA64B9254E0265D9F2FB2D3E90D04E --secret GSfCLq0GTMh8QlabsGMjqjqmqkx1PrMxCdUI51B6
-
-rsconnect deploy shiny path/to/your/app --name ashwathnakate --title your-app-name
